@@ -2,6 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for Authentication" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.m2/repository/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="Authentication" />
+      </profile>
       <profile name="Annotation profile for OCRIngestion" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -11,7 +22,6 @@
         </processorPath>
         <module name="OCRIngestion" />
         <module name="GestionAliments" />
-        <module name="Authentication" />
         <module name="IACalories" />
         <module name="HistoriqueNutritionnel" />
       </profile>
