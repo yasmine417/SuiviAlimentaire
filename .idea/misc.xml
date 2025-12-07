@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/HistoriqueNutritionnel/pom.xml" />
         <option value="$PROJECT_DIR$/IACalories/pom.xml" />
         <option value="$PROJECT_DIR$/OCRIngestion/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
       </list>
     </option>
   </component>
