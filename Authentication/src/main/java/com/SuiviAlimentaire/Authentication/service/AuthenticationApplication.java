@@ -1,4 +1,4 @@
-package com.SuiviAlimentaire.Authentication;
+package com.SuiviAlimentaire.Authentication.service;
 
 
 import com.SuiviAlimentaire.Authentication.entities.User;
