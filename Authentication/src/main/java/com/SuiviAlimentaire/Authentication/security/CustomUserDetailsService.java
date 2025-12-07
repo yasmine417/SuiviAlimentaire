@@ -1,4 +1,6 @@
-/*package com.SuiviAlimentaire.Authentication.security;
+package com.SuiviAlimentaire.Authentication.security;
+
+
 
 
 import com.SuiviAlimentaire.Authentication.entities.User;
@@ -25,4 +27,3 @@ public class CustomUserDetailsService implements UserDetailsService {
     }
 }
 
-*/

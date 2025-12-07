@@ -1,6 +1,7 @@
 package com.SuiviAlimentaire.Authentication.repository;
 
 
+
 import com.SuiviAlimentaire.Authentication.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;

@@ -1,5 +1,6 @@
 package com.SuiviAlimentaire.Authentication.dto;
 
+
 import lombok.Data;
 
 @Data
